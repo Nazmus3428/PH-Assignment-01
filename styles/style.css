@@ -2,6 +2,12 @@
     margin: 0;
     padding: 0;
 }
+/*Shared fonts from Google fonts*/
+.fonts{
+  font-family: 'Merriweather', serif;
+}
+
+
 .first-banner{
     display: flex;
     justify-content: center;
@@ -15,17 +21,15 @@
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 40px;
-    margin
-    
+    /* margin- */
     
 }
 .banner1 .text {
     color: #ffffff;
     text-align: center;
-    font-family: 'Merriweather', serif;
     font-style: normal;
     justify-content: center;
-     padding: 200px;
+    padding: 200px;
 
 }
 
@@ -41,6 +45,45 @@ font-size: 72px;
 font-weight: 900;
 line-height: 95px;
 }
+
+
+/* Second Banner works start from here */
+
+.second-banner{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.banner2 .text{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    line-height: normal;
+    text-align: center;
+
+}
+
+.banner2 .text h1{
+color: #F00;
+font-size: 88px;
+font-weight: 700;
+
+}
+
+.banner2 .text p{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 48px;
+    margin-bottom: 10px;
+    }
+
+.banner2 .text h3{
+color: #070211;
+font-size: 48px;
+font-weight: 700;
+}
+
 
 
 
